@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "MLXEmbeddersTokenizers", targets: ["MLXEmbeddersTokenizers"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ml-explore/mlx-swift-lm.git", from: "3.31.3"),
+        .package(url: "https://github.com/dcartman/mlx-swift-lm.git", from: "3.31.3"),
         .package(url: "https://github.com/DePasqualeOrg/swift-tokenizers.git", from: "0.5.0"),
         .package(url: "https://github.com/DePasqualeOrg/swift-hf-api.git", from: "0.3.2"),
     ],
